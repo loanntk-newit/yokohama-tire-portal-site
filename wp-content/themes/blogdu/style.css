@@ -1,0 +1,109 @@
+/*
+Theme Name: Blogdu
+Theme URI: https://themeansar.com/free-themes/blogdu-free-wordpress-theme/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Blogdu is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Blogdu is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Blogdu is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/blogus/Blogdu/ and documentation at https://docs.themeansar.com/docs/blogus/
+Version: 0.4
+Requires PHP: 7
+Tested up to: 6.2.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: blogus
+Text Domain: blogdu
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Blogdu WordPress Theme is child theme of Newsup, Copyright 2023 Themeansar
+Blogdu is distributed under the terms of the GNU General Public License v3
+
+Blogdu is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+a:focus {
+  outline: 1px solid;
+}
+.bs-headfive .navbar-wp {
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  box-shadow: var(--bxsh);
+}
+.bs-headfive .bs-header-main .inner {
+  display: flex;
+  padding: 30px 0;
+  margin: 0;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.bs-headfive .navbar-wp .navbar-nav > li > a {
+  padding: 8px 15px;
+  font-weight: 600;
+}
+.bs-masonry-columns.c2 {
+  column-gap: 1.5rem;
+  columns: 2;
+}
+.bs-masonry-columns div {
+  display: inline-block;
+  width: 100%;
+}
+@media (max-width: 991.98px) {
+  .bs-masonry-columns.c2 {
+    columns: 1;
+  }
+}
+.mainfeatured .list-blog .bs-blog-thumb {
+  width: 50.333333%;
+  max-width: 50.333333%;
+  min-width: 50.333333%;
+  height: 400px;
+  min-height: 250px;
+  margin-right: 25px;
+}
+
+.bs-blog-post .title,
+.bs-blog-post .title a,
+.bs-blog-post .title,
+.bs-blog-post .title a,
+.bs-sidebar .bs-widget ul li a:hover,
+.bs-sidebar .bs-widget ul li a:focus {
+  text-decoration: underline;
+}
+.express-widget .bs-slide {
+  height: 400px;
+}
+.express-widget .bs-slide .inner {
+  width: unset;
+}
+@media (min-width: 992px) {
+  #sidebar-right {
+    padding-right: unset;
+    padding-left: 20px;
+  }
+}
+.bs-blog-category {
+  justify-content: center;
+}
+.bs-blog-post,
+.bs-blog-thumb {
+  text-align: center;
+  border-radius: 30px;
+}
+.bs-blog-category a {
+  border-radius: 15px;
+}
+
+.home-categories .bs-blog-category {
+  margin-bottom: 5px;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.home-categories .blogus-categories {
+  padding: 2px 10px;
+  border-radius: 30px;
+}
+.introduction {
+  animation: customize-fade-in 0.5s;
+}
